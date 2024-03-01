@@ -45,7 +45,7 @@ function RandomUser() {
             <Row>
             <Col>
             <div  className="ms-5">
-                <img src="https://robohash.org/Terry.png?set=set4" alt="" />
+                <img src={data.image} alt="" />
                 <h1>{data.firstName}</h1>
                 <h4 className="ms-5">{data.gender}</h4>
               </div>
